@@ -17,7 +17,7 @@ import java.util.Scanner;
      public void setName(String name) {
          name = name;
      }
-     public abstract void speak();
+
 
      public String getTypePet() {
          return typePet;
@@ -26,5 +26,5 @@ import java.util.Scanner;
          this.typePet = typePet;
      }
 
-
+     public abstract void speak();
 }
